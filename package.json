@@ -1,6 +1,6 @@
 {
   "name": "magnet-algolia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Readme",
   "keywords": [
     "algolia",
@@ -22,7 +22,7 @@
   "repository": "magnetjs/magnet-algolia",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "prepublish": "npm run build",
+    "dist": "npm run build && npm publish",
     "start": "babel src --out-dir dist",
     "test": "babel-node tests/index.js | tap-spec",
     "watch": "nodemon --ignore dist --exec \"babel src --out-dir dist --source-maps\"",
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "algoliasearch": "^3.21.1",
-    "magnet-core": "^3.2.2"
+    "magnet-core": "^3.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.23.0",
