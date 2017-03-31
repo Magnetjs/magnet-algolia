@@ -1,4 +1,6 @@
 ### Usage
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Magnetjs/magnet-algolia.svg)](https://greenkeeper.io/)
 All Algolia api should refer [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
 
 Basic
