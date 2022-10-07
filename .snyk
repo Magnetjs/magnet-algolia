@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - algoliasearch > debug:
+        patched: '2022-10-07T21:06:25.456Z'
+  SNYK-JS-LODASH-567746:
+    - magnet-core > lodash:
+        patched: '2022-10-07T21:06:25.456Z'
