@@ -25,7 +25,7 @@
     "dist": "npm run build && npm publish"
   },
   "dependencies": {
-    "algoliasearch": "^3.22.1",
+    "algoliasearch": "^4.0.0",
     "magnet-core": "^4.0.1"
   },
   "devDependencies": {
